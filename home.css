@@ -1,0 +1,160 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+  background-image: url(GSU.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#post-container {
+  width: 25%;
+  height: 60%;
+
+  position: absolute;
+  top: 25%;
+  right: 5%;
+
+  background-color: rgba(0, 0, 0, 0.500);  
+}
+
+#post-heading, #post-heading:active, #post-heading:visited {
+  width: 100%;
+  height: 10%;
+  margin: 0;
+
+  text-decoration: none;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-color: rgba(19, 19, 19, 0.800);
+  color: whitesmoke;
+  text-align: center;
+  transition: 1s;
+}
+
+#post-heading:hover {
+  background-color: rgb(29, 4, 4);
+}
+
+.posts {
+  margin:5%;
+
+  width: 90%;
+  height: 20%;
+
+  background-color: rgba(19, 19, 19, 0.800);
+  color: whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+
+  transition: 1s;
+  text-decoration: none;
+}
+
+.posts:hover {
+  background-color: rgb(29, 4, 4);
+}
+
+.post-title {
+  width: 100%;
+  height: 25%;
+  margin: 0;
+
+  flex-grow: 0;
+
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
+
+  align-items: flex-start;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.post-text 
+{
+  flex-grow: 1; 
+  background-color: transparent;
+  color: whitesmoke;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+
+  overflow: hidden;
+
+  text-align: center;
+}
+
+#upload-container {
+  width: 25%;
+  height: 50%;
+
+  position: absolute;
+  top: 45%;
+  left: 5%;
+
+  background-color: rgba(0, 0, 0, 0.500);
+}
+
+#upload-heading, #upload-heading:active, #upload-heading:visited {
+  width: 100%;
+  height: 10%;
+  margin: 0;
+
+  text-decoration: none;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-color: rgba(19, 19, 19, 0.800);
+  color: whitesmoke;
+  text-align: center;
+  transition: 1s;
+}
+
+#upload-heading:hover {
+  background-color: rgb(29, 4, 4);
+}
+
+.uploads {
+  margin:5%;
+
+  width: 90%;
+  height: 10%;
+
+  background-color: rgba(19, 19, 19, 0.800);
+  color: whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  text-align: center;
+
+  transition: 1s;
+  text-decoration: none;
+}
+
+.uploads:hover {
+  background-color: rgb(29, 4, 4);
+}
+
+#yazi {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: fit-content;
+
+  padding: 1%;
+
+  font-style: italic;
+  color: aliceblue;
+}

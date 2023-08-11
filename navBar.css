@@ -1,0 +1,96 @@
+#topnav {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 8%;
+  width: 100%;
+  background-color: firebrick;
+  color: #FFD700;
+  overflow: hidden;
+}
+
+.top-link {
+  height: 100%;
+  width: 10%;
+  color: #FFD700;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.top-link:hover {
+  background-color: #FFD700;
+  color: firebrick;
+}
+
+.top-link.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.top-link-left {
+  float: left;
+}
+
+.top-link-right {
+  float: right;
+}
+
+.home-image, .home-image:hover {
+  height: 100%;
+  width: fit-content;
+
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+
+  background-color: transparent;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#gsu-logo {
+  height: 100%;
+  width: auto;
+}
+
+.resources-box {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  
+  width: 10%;
+  height: 16%;
+
+  background-color: firebrick(34, 144, 178);
+  color: #FFD700;
+  overflow: hidden;
+
+  
+  display: flex; 
+  flex-direction: column; 
+}
+
+.box-link {
+  width: 100%;
+
+  background-color: firebrick;
+  color: #FFD700;
+}
+
+.box-link:hover {
+  background-color: #FFD700;
+  color: firebrick;
+}
+
+.box_closed {
+  display: none;
+}
